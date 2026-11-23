@@ -6,11 +6,14 @@ import { Calendar, ChevronDown, MapPin, Search, type LucideIcon } from "lucide-r
 
 const whereOptions = [
   { value: "addis", label: "Addis Ababa" },
+  { value: "museum", label: "National Museum of Ethiopia" },
   { value: "entoto", label: "Mount Entoto" },
+  { value: "trinity", label: "Holy Trinity Cathedral" },
   { value: "unity", label: "Unity Park" },
-  { value: "museum", label: "National Museum" },
   { value: "merkato", label: "Merkato" },
-  { value: "trinity", label: "Holy Trinity" },
+  { value: "meskel", label: "Meskel Square" },
+  { value: "coffee", label: "Coffee ceremony" },
+  { value: "gemstone", label: "Gemstone store" },
 ];
 
 function FieldSelect({

@@ -5,7 +5,7 @@ import TripTypes from "../../components/home/TripTypes";
 
 export const metadata: Metadata = {
   title: "Trip Types",
-  description: "Choose your Addis Ababa trip type — city tours, culture, nature, or markets & food.",
+  description: "Choose your Addis Ababa package — Short, Half-Day, Full-Day, or Airport Layover city tour.",
 };
 
 export default function TripsPage() {
@@ -14,7 +14,7 @@ export default function TripsPage() {
       <PageHero
         eyebrow="Find your style"
         title="Trip types"
-        subtitle="Pick the vibe that fits your day in Ethiopia's capital — then open a matching tour."
+        subtitle="Pick the duration that fits your day in Ethiopia's capital — then open a matching package."
         image="/images/listing/7.jpg"
         crumbs={[{ label: "Home", href: "/" }, { label: "Trips" }]}
       />
@@ -24,7 +24,7 @@ export default function TripsPage() {
           <div className="grid md:grid-cols-2 gap-6 items-center p-8 md:p-10 rounded-md bg-slate-50">
             <div>
               <h2 className="text-2xl font-semibold mb-3">Not sure which trip fits?</h2>
-              <p className="text-slate-400">Message us with your dates and interests — we&apos;ll suggest the best half-day or full-day plan.</p>
+              <p className="text-slate-400">Message us with your dates and interests — we&apos;ll suggest the best short, half-day, full-day, or layover plan.</p>
             </div>
             <div className="md:text-end space-x-3">
               <Link href="/tours" className="py-2.5 px-5 inline-block bg-red-500 hover:bg-red-600 text-white rounded-md">Browse all tours</Link>

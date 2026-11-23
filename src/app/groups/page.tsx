@@ -37,8 +37,8 @@ export default function GroupsPage() {
           </div>
           <div className="grid md:grid-cols-2 gap-6 mt-10">
             {[
-              { href: "/tours/full-day-addis-ababa-city-tour", img: "/images/listing/7.jpg", tag: "Popular for groups", title: "Full Day Addis Ababa City Tour" },
-              { href: "/tours/mount-entoto-viewpoint-tour", img: "/images/listing/1.jpg", tag: "Great for families", title: "Mount Entoto Viewpoint Tour" },
+              { href: "/tours/full-day-city-tour", img: "/images/listing/1.jpg", tag: "Popular for groups", title: "Full-Day City Tour" },
+              { href: "/tours/half-day-city-tour", img: "/images/listing/3.jpg", tag: "Great for families", title: "Half-Day City Tour" },
             ].map((x) => (
               <Link key={x.href} href={x.href} className="group relative overflow-hidden rounded-md min-h-[220px] block">
                 {/* eslint-disable-next-line @next/next/no-img-element */}

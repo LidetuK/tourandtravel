@@ -1,41 +1,115 @@
 {
-    "mount-entoto-viewpoint-tour": {
-        "slug": "mount-entoto-viewpoint-tour",
-        "title": "Mount Entoto Viewpoint Tour",
-        "location": "Mount Entoto, Addis Ababa",
-        "price": 45,
-        "priceLabel": "$ 45 / Day",
+    "short-city-tour": {
+        "slug": "short-city-tour",
+        "title": "Short City Tour",
+        "location": "Addis Ababa City",
+        "price": 49,
+        "priceLabel": "$ 49 / Day",
         "discount": "10% Off",
-        "duration": "Half day · ~4 hours",
-        "type": "Nature & viewpoints",
+        "duration": "4 hours",
+        "type": "City tours",
         "groupSize": "Private or small group",
         "languages": "English, Amharic",
         "rating": "5.0",
-        "reviews": 48,
-        "img": "/images/listing/1.jpg",
+        "reviews": 44,
+        "img": "/images/listing/7.jpg",
         "gallery": [
-            "/images/listing/1.jpg",
-            "/images/listing/6.jpg",
             "/images/listing/7.jpg",
-            "/images/listing/9.jpg"
+            "/images/listing/3.jpg",
+            "/images/listing/8.jpg",
+            "/images/listing/10.jpg"
         ],
-        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15760.8!2d38.75!3d9.08!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8f6f6c0c0c0d%3A0x0!2sMount%20Entoto!5e0!3m2!1sen!2set!4v1700000000000!5m2!1sen!2set",
-        "summary": "Rise above the capital for panoramic views, historic churches, and cool highland air on Mount Entoto.",
-        "description": "Mount Entoto is where Addis Ababa’s story begins. With Mesfin Shumet Tour and Travel, you’ll drive up through eucalyptus forests to sweeping viewpoints over Ethiopia’s capital, visit landmark churches, and learn how this mountain shaped the city’s founding. Ideal for first-time visitors who want photos, history, and fresh air in one half-day.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126115!2d38.746!3d9.005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85cef5ab402d%3A0x8467b6b037a24d49!2sAddis%20Ababa!5e0!3m2!1sen!2set!4v1700000000000!5m2!1sen!2set",
+        "summary": "Main city highlights in four hours — ideal when time is tight.",
+        "description": "Our Short City Tour covers Addis Ababa’s main highlights at a comfortable pace. Perfect for first-time visitors with limited time: Meskel Square orientation, a signature landmark stop, a traditional coffee ceremony, and a gemstone store visit before hotel return.",
         "highlights": [
-            "Panoramic viewpoints over Addis Ababa",
-            "Entoto Maryam church & local history stories",
-            "Cool highland climate and forest walks",
-            "Hotel pickup and drop-off available",
-            "Guided by a local Addis expert"
+            "Main city highlights in 4 hours",
+            "Meskel Square orientation",
+            "National Museum or Holy Trinity Cathedral",
+            "Traditional Ethiopian coffee ceremony",
+            "Gemstone store stop",
+            "Hotel pickup and drop-off"
         ],
         "includes": [
             "Local guide",
             "Transport",
             "Bottled water",
-            "Viewpoint stops"
+            "Coffee ceremony experience"
         ],
         "excludes": [
+            "Entrance fees",
+            "Purchases at gemstone store",
+            "Lunch",
+            "Gratuities"
+        ],
+        "itinerary": [
+            {
+                "time": "Start",
+                "text": "Hotel pickup and Meskel Square city orientation."
+            },
+            {
+                "time": "Highlights",
+                "text": "National Museum of Ethiopia or Holy Trinity Cathedral."
+            },
+            {
+                "time": "Culture",
+                "text": "Traditional coffee ceremony and gemstone store visit."
+            },
+            {
+                "time": "Return",
+                "text": "Drop-off at your hotel."
+            }
+        ],
+        "faqs": [
+            {
+                "q": "Can we choose which landmark to visit?",
+                "a": "Yes — tell us your priority (museum or cathedral) and we shape the short route."
+            },
+            {
+                "q": "Is this good for a busy schedule?",
+                "a": "Absolutely. Four focused hours cover the main highlights without rushing the whole city."
+            }
+        ]
+    },
+    "half-day-city-tour": {
+        "slug": "half-day-city-tour",
+        "title": "Half-Day City Tour",
+        "location": "Addis Ababa City",
+        "price": 69,
+        "priceLabel": "$ 69 / Day",
+        "discount": null,
+        "duration": "6 hours",
+        "type": "City tours",
+        "groupSize": "Private or small group",
+        "languages": "English, Amharic",
+        "rating": "4.9",
+        "reviews": 57,
+        "img": "/images/listing/3.jpg",
+        "gallery": [
+            "/images/listing/3.jpg",
+            "/images/listing/5.jpg",
+            "/images/listing/2.jpg",
+            "/images/listing/4.jpg"
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126115!2d38.746!3d9.005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85cef5ab402d%3A0x8467b6b037a24d49!2sAddis%20Ababa!5e0!3m2!1sen!2set!4v1700000000000!5m2!1sen!2set",
+        "summary": "History, culture, and landmarks across a balanced six-hour Addis itinerary.",
+        "description": "The Half-Day City Tour goes deeper into Addis Ababa’s history, culture, and landmarks. Expect guided stops at the National Museum of Ethiopia, Holy Trinity Cathedral, Unity Park or Merkato, plus Meskel Square context and time for coffee or a gemstone store visit.",
+        "highlights": [
+            "History, culture and landmarks",
+            "National Museum of Ethiopia",
+            "Holy Trinity Cathedral",
+            "Unity Park or Merkato",
+            "Meskel Square orientation",
+            "Coffee ceremony or gemstone store"
+        ],
+        "includes": [
+            "Local guide",
+            "Transport",
+            "Bottled water",
+            "Assistance with entry"
+        ],
+        "excludes": [
+            "Entrance fees",
             "Lunch",
             "Personal shopping",
             "Gratuities"
@@ -43,437 +117,174 @@
         "itinerary": [
             {
                 "time": "Morning",
-                "text": "Pickup from your hotel and scenic drive up Mount Entoto."
+                "text": "Pickup, Meskel Square orientation, then National Museum of Ethiopia."
             },
             {
                 "time": "Midday",
-                "text": "Viewpoint stops, church visit, and photo time above the city."
+                "text": "Holy Trinity Cathedral and guided historical context."
             },
             {
                 "time": "Afternoon",
-                "text": "Optional short forest walk, then return to Addis."
-            }
-        ],
-        "faqs": [
-            {
-                "q": "What should I wear?",
-                "a": "Comfortable shoes and a light jacket — Entoto is cooler than downtown Addis."
-            },
-            {
-                "q": "Is this good for families?",
-                "a": "Yes. The pace is flexible and viewpoints are easy to enjoy with kids."
-            },
-            {
-                "q": "Can we customize the stops?",
-                "a": "Absolutely. Tell us what you care about most and we will shape the route."
-            }
-        ]
-    },
-    "unity-park-imperial-palace": {
-        "slug": "unity-park-imperial-palace",
-        "title": "Unity Park & Imperial Palace",
-        "location": "Unity Park, Addis Ababa",
-        "price": 55,
-        "priceLabel": "$ 55 / Day",
-        "discount": null,
-        "duration": "Half day · ~4–5 hours",
-        "type": "Culture & history",
-        "groupSize": "Private or small group",
-        "languages": "English, Amharic",
-        "rating": "4.9",
-        "reviews": 36,
-        "img": "/images/listing/2.jpg",
-        "gallery": [
-            "/images/listing/2.jpg",
-            "/images/listing/5.jpg",
-            "/images/listing/7.jpg",
-            "/images/listing/10.jpg"
-        ],
-        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.5!2d38.76!3d9.02!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85c3%3A0x0!2sUnity%20Park!5e0!3m2!1sen!2set!4v1700000000000!5m2!1sen!2set",
-        "summary": "Explore imperial palace grounds, museums, gardens, and wildlife in the heart of Addis Ababa.",
-        "description": "Unity Park sits inside the former imperial palace compound — a calm green escape with museums, gardens, and animal enclosures. Your Mesfin Shumet guide helps you navigate tickets, highlights, and the stories behind Ethiopia’s modern history.",
-        "highlights": [
-            "Palace grounds and museum areas",
-            "Gardens and animal enclosures",
-            "Guided context on Ethiopian history",
-            "Central Addis location"
-        ],
-        "includes": [
-            "Local guide",
-            "Transport",
-            "Assistance with entry"
-        ],
-        "excludes": [
-            "Park entrance fees",
-            "Lunch",
-            "Gratuities"
-        ],
-        "itinerary": [
-            {
-                "time": "Morning",
-                "text": "Hotel pickup and entry to Unity Park."
-            },
-            {
-                "time": "Tour",
-                "text": "Guided walk through key palace, museum, and garden areas."
+                "text": "Unity Park or Merkato, plus coffee ceremony or gemstone store."
             },
             {
                 "time": "Return",
-                "text": "Optional café stop nearby, then hotel drop-off."
+                "text": "Hotel drop-off."
             }
         ],
         "faqs": [
             {
-                "q": "Are tickets included?",
-                "a": "Entrance fees are paid on site; we help with the process and timing."
+                "q": "Unity Park or Merkato — which should we pick?",
+                "a": "Unity Park suits history and gardens; Merkato suits markets and city energy. We’ll recommend based on your interests."
             },
             {
-                "q": "How long does the visit take?",
-                "a": "Most guests enjoy 3–4 hours inside the park."
+                "q": "How long is the tour?",
+                "a": "About six hours, with flexible pacing for photos and rest stops."
             }
         ]
     },
-    "national-museum-lucy-tour": {
-        "slug": "national-museum-lucy-tour",
-        "title": "National Museum & Lucy Tour",
-        "location": "National Museum, Addis Ababa",
-        "price": 40,
-        "priceLabel": "$ 40 / Day",
-        "discount": null,
-        "duration": "Half day · ~3 hours",
-        "type": "Culture & museums",
-        "groupSize": "Private or small group",
-        "languages": "English, Amharic",
-        "rating": "4.9",
-        "reviews": 52,
-        "img": "/images/listing/3.jpg",
-        "gallery": [
-            "/images/listing/3.jpg",
-            "/images/listing/5.jpg",
-            "/images/listing/10.jpg",
-            "/images/listing/11.jpg"
-        ],
-        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.6!2d38.76!3d9.02!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85cef5ab402d%3A0x0!2sNational%20Museum%20of%20Ethiopia!5e0!3m2!1sen!2set!4v1700000000000!5m2!1sen!2set",
-        "summary": "Meet Lucy and explore Ethiopia’s archaeological and royal heritage at the National Museum.",
-        "description": "The National Museum of Ethiopia is home to Lucy (Dinkinesh) and collections that span ancient history to imperial artifacts. This focused tour is perfect if you want culture without rushing the whole city.",
-        "highlights": [
-            "Lucy fossil exhibit",
-            "Royal & ethnographic collections",
-            "Expert local storytelling"
-        ],
-        "includes": [
-            "Local guide",
-            "Transport"
-        ],
-        "excludes": [
-            "Museum entrance",
-            "Lunch"
-        ],
-        "itinerary": [
-            {
-                "time": "Start",
-                "text": "Pickup and arrival at the National Museum."
-            },
-            {
-                "time": "Visit",
-                "text": "Guided highlights including Lucy and key galleries."
-            },
-            {
-                "time": "End",
-                "text": "Return transfer or continue to another stop."
-            }
-        ],
-        "faqs": [
-            {
-                "q": "Is photography allowed?",
-                "a": "Rules vary by gallery; your guide will advise on site."
-            }
-        ]
-    },
-    "merkato-market-experience": {
-        "slug": "merkato-market-experience",
-        "title": "Merkato Market Experience",
-        "location": "Merkato, Addis Ababa",
-        "price": 35,
-        "priceLabel": "$ 35 / Day",
-        "discount": null,
-        "duration": "Half day · ~3–4 hours",
-        "type": "Markets & food",
-        "groupSize": "Private preferred",
-        "languages": "English, Amharic",
-        "rating": "4.8",
-        "reviews": 41,
-        "img": "/images/listing/4.jpg",
-        "gallery": [
-            "/images/listing/4.jpg",
-            "/images/listing/8.jpg",
-            "/images/listing/12.jpg",
-            "/images/listing/7.jpg"
-        ],
-        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.4!2d38.74!3d9.03!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8f%3A0x0!2sMerkato!5e0!3m2!1sen!2set!4v1700000000000!5m2!1sen!2set",
-        "summary": "Navigate Africa’s largest open-air market with a local guide — spices, crafts, and city energy.",
-        "description": "Merkato is vibrant, vast, and best explored with someone who knows the lanes. We’ll help you see spice stalls, textiles, and everyday Addis life at a comfortable pace.",
-        "highlights": [
-            "Guided market walk",
-            "Spice and craft areas",
-            "Local shopping tips"
-        ],
-        "includes": [
-            "Local guide",
-            "Transport"
-        ],
-        "excludes": [
-            "Purchases",
-            "Lunch"
-        ],
-        "itinerary": [
-            {
-                "time": "Morning",
-                "text": "Pickup and orientation before entering Merkato."
-            },
-            {
-                "time": "Explore",
-                "text": "Guided walk through selected market sections."
-            },
-            {
-                "time": "Wrap",
-                "text": "Optional coffee stop and return transfer."
-            }
-        ],
-        "faqs": [
-            {
-                "q": "Is Merkato safe for visitors?",
-                "a": "With a local guide and sensible belongings, most guests have a great visit."
-            }
-        ]
-    },
-    "holy-trinity-cathedral-visit": {
-        "slug": "holy-trinity-cathedral-visit",
-        "title": "Holy Trinity Cathedral Visit",
-        "location": "Holy Trinity Cathedral, Addis Ababa",
-        "price": 38,
-        "priceLabel": "$ 38 / Day",
-        "discount": null,
-        "duration": "Half day · ~2–3 hours",
-        "type": "Culture & history",
-        "groupSize": "Private or small group",
-        "languages": "English, Amharic",
-        "rating": "4.9",
-        "reviews": 29,
-        "img": "/images/listing/5.jpg",
-        "gallery": [
-            "/images/listing/5.jpg",
-            "/images/listing/3.jpg",
-            "/images/listing/10.jpg",
-            "/images/listing/2.jpg"
-        ],
-        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.5!2d38.76!3d9.03!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85%3A0x0!2sHoly%20Trinity%20Cathedral!5e0!3m2!1sen!2set!4v1700000000000!5m2!1sen!2set",
-        "summary": "Visit one of Ethiopia’s most important churches and learn its imperial and religious stories.",
-        "description": "Holy Trinity Cathedral is a landmark of faith and history in Addis Ababa. Your guide shares context on architecture, imperial tombs, and respectful visiting customs.",
-        "highlights": [
-            "Cathedral architecture",
-            "Historical context",
-            "Respectful guided visit"
-        ],
-        "includes": [
-            "Local guide",
-            "Transport"
-        ],
-        "excludes": [
-            "Entrance fees where applicable",
-            "Lunch"
-        ],
-        "itinerary": [
-            {
-                "time": "Visit",
-                "text": "Guided cathedral visit with time for photos outside."
-            },
-            {
-                "time": "After",
-                "text": "Optional nearby culture stop or hotel return."
-            }
-        ],
-        "faqs": [
-            {
-                "q": "Is there a dress code?",
-                "a": "Modest clothing covering shoulders and knees is recommended."
-            }
-        ]
-    },
-    "entoto-park-nature-escape": {
-        "slug": "entoto-park-nature-escape",
-        "title": "Entoto Park Nature Escape",
-        "location": "Entoto Park, Addis Ababa",
-        "price": 48,
-        "priceLabel": "$ 48 / Day",
-        "discount": "15% Off",
-        "duration": "Half day · ~4 hours",
-        "type": "Nature & Entoto",
-        "groupSize": "Private or small group",
-        "languages": "English, Amharic",
-        "rating": "4.8",
-        "reviews": 22,
-        "img": "/images/listing/6.jpg",
-        "gallery": [
-            "/images/listing/6.jpg",
-            "/images/listing/1.jpg",
-            "/images/listing/9.jpg",
-            "/images/listing/7.jpg"
-        ],
-        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15760!2d38.75!3d9.07!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8f%3A0x0!2sEntoto%20Park!5e0!3m2!1sen!2set!4v1700000000000!5m2!1sen!2set",
-        "summary": "Fresh air, forest paths, and mountain calm at Entoto Park above Addis Ababa.",
-        "description": "Entoto Park is a nature break from downtown traffic — open space, views, and a slower rhythm. Perfect for families and anyone who wants outdoors with easy logistics.",
-        "highlights": [
-            "Nature escape above the city",
-            "Flexible walking pace",
-            "Great for photos and fresh air"
-        ],
-        "includes": [
-            "Local guide",
-            "Transport",
-            "Bottled water"
-        ],
-        "excludes": [
-            "Park fees if required",
-            "Lunch",
-            "Activities inside the park"
-        ],
-        "itinerary": [
-            {
-                "time": "Drive",
-                "text": "Scenic ascent toward Entoto."
-            },
-            {
-                "time": "Park time",
-                "text": "Guided time for views and walking."
-            },
-            {
-                "time": "Return",
-                "text": "Descent back to your hotel."
-            }
-        ],
-        "faqs": [
-            {
-                "q": "Is this different from the viewpoint tour?",
-                "a": "Yes — this focuses more on park time and nature, while the viewpoint tour emphasizes historic Entoto overlooks."
-            }
-        ]
-    },
-    "full-day-addis-ababa-city-tour": {
-        "slug": "full-day-addis-ababa-city-tour",
-        "title": "Full Day Addis Ababa City Tour",
+    "full-day-city-tour": {
+        "slug": "full-day-city-tour",
+        "title": "Full-Day City Tour",
         "location": "Addis Ababa City",
         "price": 89,
         "priceLabel": "$ 89 / Day",
         "discount": null,
-        "duration": "Full day · ~8 hours",
+        "duration": "8 hours",
         "type": "City tours",
         "groupSize": "Private or small group",
         "languages": "English, Amharic",
         "rating": "5.0",
         "reviews": 61,
-        "img": "/images/listing/7.jpg",
+        "img": "/images/listing/1.jpg",
         "gallery": [
-            "/images/listing/7.jpg",
             "/images/listing/1.jpg",
+            "/images/listing/7.jpg",
             "/images/listing/3.jpg",
             "/images/listing/4.jpg"
         ],
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126115!2d38.746!3d9.005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85cef5ab402d%3A0x8467b6b037a24d49!2sAddis%20Ababa!5e0!3m2!1sen!2set!4v1700000000000!5m2!1sen!2set",
-        "summary": "The classic Addis day: Entoto views, museums, landmarks, and local flavor in one itinerary.",
-        "description": "See the best of Addis Ababa in a single day with Mesfin Shumet Tour and Travel. We balance viewpoints, culture, and markets so you leave with a real sense of the capital — not just a checklist.",
+        "summary": "A comprehensive Addis Ababa experience — viewpoints, culture, markets, and local flavor.",
+        "description": "See the best of Addis Ababa in one day with Mesfin Shumet Tour and Travel. This comprehensive city experience balances Mount Entoto viewpoints, the National Museum, Holy Trinity Cathedral, Unity Park, Merkato, Meskel Square, a traditional coffee ceremony, and a gemstone store stop.",
         "highlights": [
-            "Entoto viewpoint",
-            "Museum or cathedral stop",
-            "City landmarks",
-            "Local lunch recommendation"
+            "Comprehensive city experience",
+            "Mount Entoto viewpoints",
+            "National Museum of Ethiopia",
+            "Holy Trinity Cathedral & Unity Park",
+            "Merkato and Meskel Square",
+            "Traditional coffee ceremony & gemstone store"
         ],
         "includes": [
             "Local guide",
             "Transport",
-            "Bottled water"
+            "Bottled water",
+            "Coffee ceremony experience"
         ],
         "excludes": [
             "Entrance fees",
             "Lunch",
+            "Gemstone purchases",
             "Gratuities"
         ],
         "itinerary": [
             {
                 "time": "Morning",
-                "text": "Entoto viewpoint and city panorama."
+                "text": "Mount Entoto viewpoint and city panorama."
             },
             {
                 "time": "Midday",
-                "text": "Museum or cathedral visit and lunch stop."
+                "text": "National Museum of Ethiopia, Holy Trinity Cathedral, and lunch stop."
             },
             {
                 "time": "Afternoon",
-                "text": "Merkato or Unity Park depending on your interests."
+                "text": "Unity Park or Merkato, Meskel Square, coffee ceremony, and gemstone store."
+            },
+            {
+                "time": "Evening",
+                "text": "Hotel return."
             }
         ],
         "faqs": [
             {
                 "q": "Can we swap stops?",
-                "a": "Yes — share priorities and we customize the day."
+                "a": "Yes — share priorities and we customize the full-day route."
+            },
+            {
+                "q": "Is lunch included?",
+                "a": "Lunch is not included; we recommend a local restaurant and help with timing."
             }
         ]
     },
-    "culture-coffee-ceremony-tour": {
-        "slug": "culture-coffee-ceremony-tour",
-        "title": "Culture & Coffee Ceremony Tour",
-        "location": "Meskel Square, Addis Ababa",
-        "price": 42,
-        "priceLabel": "$ 42 / Day",
-        "discount": "20% Off",
-        "duration": "Half day · ~3–4 hours",
-        "type": "Culture & food",
-        "groupSize": "Private or small group",
+    "airport-layover-tour": {
+        "slug": "airport-layover-tour",
+        "title": "Airport Layover Tour",
+        "location": "Bole Airport & Addis Ababa",
+        "price": 99,
+        "priceLabel": "$ 99 / Day",
+        "discount": "15% Off",
+        "duration": "6–8 hours",
+        "type": "City tours",
+        "groupSize": "Private preferred",
         "languages": "English, Amharic",
-        "rating": "5.0",
-        "reviews": 33,
-        "img": "/images/listing/8.jpg",
+        "rating": "4.9",
+        "reviews": 28,
+        "img": "/images/listing/6.jpg",
         "gallery": [
-            "/images/listing/8.jpg",
-            "/images/listing/4.jpg",
-            "/images/listing/12.jpg",
-            "/images/listing/5.jpg"
+            "/images/listing/6.jpg",
+            "/images/listing/7.jpg",
+            "/images/listing/3.jpg",
+            "/images/listing/8.jpg"
         ],
-        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.5!2d38.76!3d9.01!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85%3A0x0!2sMeskel%20Square!5e0!3m2!1sen!2set!4v1700000000000!5m2!1sen!2set",
-        "summary": "Taste Ethiopia’s coffee culture and sample Addis Ababa’s living traditions.",
-        "description": "Coffee is at the heart of Ethiopian hospitality. This tour blends city culture stops with a traditional coffee ceremony experience — relaxed, social, and memorable.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126115!2d38.795!3d8.977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85%3A0x0!2sBole%20Airport!5e0!3m2!1sen!2set!4v1700000000000!5m2!1sen!2set",
+        "summary": "Airport pickup, city sightseeing, and return — make the most of your layover in Addis.",
+        "description": "Turn a layover into a real Addis Ababa experience. We meet you at Bole Airport, guide a timed city sightseeing route (landmarks, museum or cathedral, coffee ceremony, gemstone store), and return you to the airport with buffer time for your next flight.",
         "highlights": [
+            "Airport pickup and return",
+            "City sightseeing timed to your layover",
+            "Key landmarks and culture stops",
             "Traditional coffee ceremony",
-            "Cultural storytelling",
-            "City atmosphere around Meskel Square"
+            "Gemstone store visit",
+            "Flight-aware pacing with buffer time"
         ],
         "includes": [
+            "Airport pickup",
             "Local guide",
-            "Coffee ceremony experience",
-            "Transport"
+            "Transport",
+            "Bottled water",
+            "Airport return"
         ],
         "excludes": [
-            "Extra meals",
-            "Shopping"
+            "Entrance fees",
+            "Meals",
+            "Personal shopping",
+            "Gratuities"
         ],
         "itinerary": [
             {
-                "time": "Culture stop",
-                "text": "Short city orientation near Meskel Square."
+                "time": "Pickup",
+                "text": "Meet at Bole Airport and confirm remaining layover time."
             },
             {
-                "time": "Ceremony",
-                "text": "Sit for a traditional coffee ceremony with your guide."
+                "time": "Sightseeing",
+                "text": "Meskel Square, National Museum or Holy Trinity, and city highlights."
             },
             {
-                "time": "Close",
-                "text": "Time for questions and hotel return."
+                "time": "Culture",
+                "text": "Coffee ceremony and optional gemstone store stop."
+            },
+            {
+                "time": "Return",
+                "text": "Airport drop-off with comfortable buffer before departure."
             }
         ],
         "faqs": [
             {
-                "q": "Do you accommodate dietary needs?",
-                "a": "Tell us ahead — snacks with the ceremony can often be adjusted."
+                "q": "How long does my layover need to be?",
+                "a": "Ideally 8+ hours total airport-to-airport. We tailor a 6–8 hour tour once we know your arrival and departure times."
+            },
+            {
+                "q": "Do you help with luggage?",
+                "a": "Yes — we can store bags in the vehicle or advise on airport left-luggage options."
             }
         ]
     }

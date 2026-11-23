@@ -40,7 +40,7 @@ export default function AboutPage() {
                   Discover Addis Ababa with<br />Mesfin Shumet Tour and Travel
                 </h3>
                 <p className="text-slate-400 max-w-xl mb-6">
-                  Mesfin Shumet Tour and Travel is your local guide to Ethiopia&apos;s capital. From Mount Entoto viewpoints and Unity Park to the National Museum, Merkato, and Holy Trinity Cathedral — we craft authentic city tours, cultural experiences, and day packages across Addis Ababa.
+                  Mesfin Shumet Tour and Travel is your local guide to Ethiopia&apos;s capital. From the National Museum of Ethiopia and Mount Entoto to Holy Trinity Cathedral, Unity Park, Merkato, Meskel Square, a traditional coffee ceremony, and a gemstone store stop — we craft short, half-day, full-day, and airport layover packages across Addis Ababa.
                 </p>
                 <Link href="/tours" className="py-2 px-5 inline-block bg-red-500 text-white rounded-md">
                   View Tours →

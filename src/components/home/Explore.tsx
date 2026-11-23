@@ -5,32 +5,32 @@ import { Reveal, StaggerGrid } from "../motion/Reveal";
 
 const items = [
   {
-    title: "Nature & Entoto",
-    desc: "Viewpoints and highland air above the city",
-    img: "/images/listing/1.jpg",
-    href: "/tours/mount-entoto-viewpoint-tour",
-    meta: "From $45 · Half day",
-  },
-  {
-    title: "Culture & museums",
-    desc: "Lucy, imperial history, and local stories",
-    img: "/images/listing/3.jpg",
-    href: "/tours/national-museum-lucy-tour",
-    meta: "From $40 · Half day",
-  },
-  {
-    title: "Markets & coffee",
-    desc: "Merkato energy and Ethiopian hospitality",
-    img: "/images/listing/4.jpg",
-    href: "/tours/merkato-market-experience",
-    meta: "From $35 · Half day",
-  },
-  {
-    title: "Full city day",
-    desc: "The classic Addis highlights in one itinerary",
+    title: "Short City Tour",
+    desc: "Main city highlights",
     img: "/images/listing/7.jpg",
-    href: "/tours/full-day-addis-ababa-city-tour",
-    meta: "From $89 · Full day",
+    href: "/tours/short-city-tour",
+    meta: "From $49 · 4 hours",
+  },
+  {
+    title: "Half-Day City Tour",
+    desc: "History, culture and landmarks",
+    img: "/images/listing/3.jpg",
+    href: "/tours/half-day-city-tour",
+    meta: "From $69 · 6 hours",
+  },
+  {
+    title: "Full-Day City Tour",
+    desc: "Comprehensive city experience",
+    img: "/images/listing/1.jpg",
+    href: "/tours/full-day-city-tour",
+    meta: "From $89 · 8 hours",
+  },
+  {
+    title: "Airport Layover Tour",
+    desc: "Airport pickup, sightseeing and return",
+    img: "/images/listing/6.jpg",
+    href: "/tours/airport-layover-tour",
+    meta: "From $99 · 6–8 hours",
   },
 ];
 
@@ -39,9 +39,9 @@ export default function Explore() {
     <section className="relative md:py-20 py-14 bg-slate-50">
       <div className="container">
         <Reveal className="text-center md:text-start pb-8 max-w-2xl md:max-w-none">
-          <p className="text-red-500 font-medium mb-2">Explore by style</p>
-          <h2 className="md:text-3xl text-2xl font-semibold">Where do you want to start?</h2>
-          <p className="text-slate-400 mt-2 max-w-xl">Four clear paths — open a tour or browse the full list.</p>
+          <p className="text-red-500 font-medium mb-2">Packages by duration</p>
+          <h2 className="md:text-3xl text-2xl font-semibold">Which experience fits your day?</h2>
+          <p className="text-slate-400 mt-2 max-w-xl">Four clear packages — open a tour or browse the full list.</p>
         </Reveal>
         <StaggerGrid className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
           {items.map((item) => (

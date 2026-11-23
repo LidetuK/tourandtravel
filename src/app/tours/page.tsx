@@ -23,7 +23,7 @@ export default function ToursPage() {
       <section className="relative py-10 border-b border-gray-100 bg-white">
         <div className="container">
           <div className="grid md:grid-cols-3 grid-cols-1 gap-6 text-center md:text-start">
-            <div><p className="text-2xl font-semibold text-red-500">8+</p><p className="text-slate-400 text-sm">Curated Addis packages</p></div>
+            <div><p className="text-2xl font-semibold text-red-500">4</p><p className="text-slate-400 text-sm">Duration-based packages</p></div>
             <div><p className="text-2xl font-semibold text-red-500">Local guides</p><p className="text-slate-400 text-sm">English & Amharic support</p></div>
             <div><p className="text-2xl font-semibold text-red-500">Flexible</p><p className="text-slate-400 text-sm">Private or small-group options</p></div>
           </div>
@@ -33,7 +33,7 @@ export default function ToursPage() {
         <div className="container">
           <div className="grid grid-cols-1 pb-8 text-center md:text-start">
             <h2 className="md:text-3xl text-2xl font-semibold">Choose your Addis day</h2>
-            <p className="text-slate-400 mt-2 max-w-2xl">From Mount Entoto viewpoints to Merkato and museums — open a tour for full details.</p>
+            <p className="text-slate-400 mt-2 max-w-2xl">Short, half-day, full-day, and airport layover packages covering Addis Ababa&apos;s main attractions.</p>
           </div>
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-6">
             {tours.map((t) => <TourCard key={t.slug} tour={t} />)}

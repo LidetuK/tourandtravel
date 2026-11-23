@@ -17,4 +17,4 @@ export const navLinks = [
 ] as const;
 
 export const defaultDescription =
-  "Discover Addis Ababa with Mesfin Shumet Tour and Travel. Book guided tours to Mount Entoto, Unity Park, National Museum, Merkato, Holy Trinity Cathedral and more.";
+  "Discover Addis Ababa with Mesfin Shumet Tour and Travel. Book short, half-day, full-day and airport layover city tours covering the National Museum, Mount Entoto, Holy Trinity Cathedral, Unity Park, Merkato, Meskel Square, coffee ceremony and gemstone store.";

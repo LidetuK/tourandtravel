@@ -10,7 +10,7 @@ const rows = [
   },
   {
     title: "Authentic local experiences",
-    body: "Coffee ceremonies, Merkato alleys, highland viewpoints, and museum stories — experiences that feel like Addis, with clear inclusions and fair prices.",
+    body: "Coffee ceremonies, Merkato alleys, Entoto viewpoints, museum stories, and a gemstone store stop — experiences that feel like Addis, with clear inclusions and fair prices.",
   },
   {
     title: "Made to spark friendships",

@@ -3,8 +3,8 @@
 import { Star } from "lucide-react";
 
 const reviews = [
-  { name: "Sarah M.", meta: "UK · Entoto & Unity Park", desc: "Felt like exploring with a friend who knows every corner of Addis. Smooth pickup, great pace, unforgettable views." },
-  { name: "Daniel O.", meta: "Business visitor", desc: "Professional, on time, and deep local knowledge of Merkato and the National Museum. Perfect for a short layover." },
+  { name: "Sarah M.", meta: "UK · Full-Day City Tour", desc: "Felt like exploring with a friend who knows every corner of Addis. Entoto views, Unity Park, and a wonderful coffee ceremony." },
+  { name: "Daniel O.", meta: "Airport Layover Tour", desc: "Professional, on time, and deep local knowledge of Merkato and the National Museum. Perfect for a short layover." },
   { name: "Anna B.", meta: "Family traveler", desc: "Our full-day package was perfectly paced. Holy Trinity and Entoto were highlights for the whole family." },
 ];
 

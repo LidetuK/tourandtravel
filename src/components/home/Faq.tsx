@@ -6,11 +6,11 @@ import { ChevronDown } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 
 const faqs = [
-  { q: "Are flights included?", a: "No — our packages are Addis Ababa city tours. Flights and international travel are arranged separately. We can help with airport pickup once you land." },
+  { q: "What packages do you offer?", a: "Four duration packages: Short City Tour (4 hours), Half-Day City Tour (6 hours), Full-Day City Tour (8 hours), and Airport Layover Tour (6–8 hours with airport pickup and return)." },
+  { q: "Which attractions are covered?", a: "Main stops include the National Museum of Ethiopia, Mount Entoto, Holy Trinity Cathedral, Unity Park, Merkato, Meskel Square, a traditional coffee ceremony, and a gemstone store — matched to your package length." },
+  { q: "Are flights included?", a: "No — our packages are Addis Ababa city tours. Flights are separate. For layovers, we handle airport pickup, city sightseeing, and return." },
   { q: "Can I see who’s in the group before I book?", a: "Private tours are just your party. Shared small-group days vary by date — ask us when you enquire and we’ll share what’s available." },
-  { q: "Will I be sharing a room?", a: "These are day tours, not overnight packages. Hotel stays are separate unless we’ve arranged a multi-day custom trip for you." },
-  { q: "Who is the guide and what is their role?", a: "A local Mesfin Shumet guide leads your day — timing, storytelling, logistics, and making sure you hit the highlights comfortably." },
-  { q: "What does the package include?", a: "Typically a licensed local guide, transport, and listed entrance fees. Meals and personal shopping are usually extra unless stated on the tour page." },
+  { q: "What does the package include?", a: "Typically a licensed local guide, transport, and bottled water. Entrance fees, meals, and personal shopping (including gemstones) are usually extra unless stated on the tour page." },
 ];
 
 export default function Faq() {

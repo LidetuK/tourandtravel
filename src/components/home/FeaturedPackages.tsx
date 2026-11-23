@@ -17,19 +17,19 @@ export default function FeaturedPackages() {
       <div className="container">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-8">
           <div>
-            <p className="text-[#e11d48] font-semibold text-sm mb-1">Deals in Addis</p>
+            <p className="text-[#e11d48] font-semibold text-sm mb-1">Packages in Addis</p>
             <h2 className="text-2xl md:text-4xl font-bold tracking-tight text-slate-900">
-              Explore the deals
+              Explore the packages
             </h2>
             <p className="text-slate-500 mt-2 max-w-lg">
-              Hand-picked Addis Ababa tours with clear prices and local guides.
+              Short, half-day, full-day, and layover city tours with clear prices and local guides.
             </p>
           </div>
           <Link
             href="/tours"
             className="inline-flex self-start md:self-auto items-center justify-center rounded-full bg-slate-900 hover:bg-[#e11d48] text-white text-sm font-semibold px-5 py-2.5 duration-200"
           >
-            See all deals
+            See all packages
           </Link>
         </div>
       </div>
